@@ -89,30 +89,6 @@ That tool never touches it. That's why your conversations keep disappearing even
 | Orphan conversations (data exists, invisible) | ✅ Restored |
 | Stale `.tmp` files clogging the directory | ✅ Removed |
 
-## 📊 Comparison
-
-| | [antigravity-conversation-fix](https://github.com/FutureisinPast/antigravity-conversation-fix) | **Antigravity Doctor** |
-|:---|:---:|:---:|
-| Fixes `trajectorySummaries` | ✅ | ✅ |
-| Fixes `ChatSessionStore.index` | ❌ | ✅ |
-| Fixes workspace-specific DBs | ❌ | ✅ |
-| Repairs annotations | ❌ | ✅ |
-| Cleans temp files | ❌ | ✅ |
-| Requires reboot | ⚠️ Yes | **No** |
-| Requires Python | ⚠️ Yes | **No** |
-| Antivirus false positives | ⚠️ PyInstaller | **None** |
-| Binary size | ~40 MB | **6.4 MB** |
-| Startup time | 2-3 sec | **Instant** |
-
-## 🖥️ Supported Platforms
-
-| Platform | Binary | Tested |
-|:---|:---|:---:|
-| **Windows** x64 | `antigravity-doctor-windows-amd64.exe` | ✅ |
-| **macOS** Intel | `antigravity-doctor-darwin-amd64` | ✅ |
-| **macOS** Apple Silicon (M1-M4) | `antigravity-doctor-darwin-arm64` | ✅ |
-| **Linux** x64 | `antigravity-doctor-linux-amd64` | ✅ |
-
 ## 🛡️ Safety First
 
 - **🔒 Automatic backup** — Your database is backed up before any change
