@@ -7,8 +7,8 @@ antigravity-doctor-*
 # Backup directory (created at runtime)
 antigravity_backup/
 
-# Go
-go.sum
+# Go build cache
+/vendor/
 
 # Python
 __pycache__/
